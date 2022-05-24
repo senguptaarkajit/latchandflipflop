@@ -13,3 +13,9 @@ We try to implement a very basic form of a latch in this design.We just use the 
 The basic idea is,when clk is HIGH,output Q will be transparent to D and when clk is LOW,it should hold the latest value.But as we no NMOS pass weak-1,so output will be less than Vdd by one threshold voltage.So the output is not completely transparent to D.Moreover,when the clock goes LOW,the output node is floating,it discharges quickly and is unable to hold the value.We witness this behaviour according to the output obtained below.
 
 ![](ouput/des1op.PNG)
+
+Thus the above circuits have lots of demerits as:
+1. It is not completely transparent to input.
+2. It cannot hold the data when latch is inacive.
+
+Considering such demerits,we look for a new design that can perform according to expectation.
