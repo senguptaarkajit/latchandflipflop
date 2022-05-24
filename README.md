@@ -58,4 +58,4 @@ Thus we see that now the output is as per expectation.We acheived this by using 
 - Also if the inverter-inverter feedback goes to a point of metastability where we cannot define proper output as it lies in an intermediate value,then we have to wait for noise to come and move the feedback circuit out of metastable condition and take it to a valid output.
 
 
-        Considering all such demerits,we will be considering the Design 2 for realising our flipflop circui.
+Considering all such demerits,we will be considering the Design 2 for realising our flipflop circuit.
