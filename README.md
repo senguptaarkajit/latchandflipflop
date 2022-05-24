@@ -6,3 +6,6 @@ A latch is circuit that can either hold a data or become transparent to input de
 
 # Design 1
 We try to implement a very basic form of a latch in this design.We just use the concept of pass transisor to achieve the transparency.The corresponding design can be seen below.
+
+
+![](design/des1.PNG)
