@@ -63,7 +63,7 @@ Considering all such demerits,we will be considering the Design 2 for realising 
 # Flipflop
 Flipflop is a circuit,that passes the input only during rising or falling edge of clock.We design a flipflop by using two complementary latches one after another.If the first latch is transparent when clock is HIGH,then the second latch will be transparent when clock is LOW.So suppose we want to make negative edge sensitive flipflop,we make the first latch transparent when clock is HIGH and second latch transparent when clock is LOW.Thus the first latch will be passing the date to the intermediate node when clock is HIGH.Just when the clock falls,the input gets disconnected and the second latch becomes active and it captures the latest input at the time of negative transition and holds it untill next negative edge of clock.So such a circuit is realized and shown below.
 
-![](ouput/des4.PNG)
+![](design/des4.PNG)
 
 The circuit we realized is a negative edge triggered flipflop.The latch we used is same as that discussed in Design 2.The output obtained for this circuit is shown below.
 
