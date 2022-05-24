@@ -69,7 +69,7 @@ The circuit we realized is a negative edge triggered flipflop.The latch we used 
 
 ![](ouput/des4op.PNG)
 
-We can see that output waveform meets expectation.
+We can see that output waveform meets expectation.The number of transistors used to realize the Flipflop is 18.
 
 # Conclusion
 The purpose of this project was just to design and analyze various types of D-latches and make a D-flipflop using one of the designs used for latch.Although we discuessed three ways of desiging the latches,there varous other ways to design a latch.
