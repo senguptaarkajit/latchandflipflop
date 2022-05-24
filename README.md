@@ -37,3 +37,5 @@ So we see that we are able to achieve the required functionality of latch.This d
 
 # Design 3
 If we wish to reduce the number of transistors,we may remove the transmission gate on the feedback path and try observing the behaviour.The modified circuit is shown below.
+
+![](design/des3.PNG)
