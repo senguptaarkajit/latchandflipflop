@@ -29,7 +29,7 @@ The design so proposed,is realised as shown below.
 
 ![](design/design2.PNG)
 
-This design will work as desired.The latch is transparent to input when clock is HIGH and opaque when clock is LOW.The output so obtained is shown below.
+In this design,instead of providing input,D direcly to diffusion input of the transmission gate,we use an inverter to buffer the input.If we apply input directly todiffusion input of transmission gate,there may be noise,so we use an inverter.When the clock is HIGH,the feedback path is broken by the OFF transmission gate and the latch is transparent.When clock is LOW,the input is disconnected by the OFF transmission gate and the feedback path is complete that holds the data.This design will work as desired.The latch is transparent to input when clock is HIGH and opaque when clock is LOW.The output so obtained is shown below.
 
 ![](ouput/design2op.PNG)
 
