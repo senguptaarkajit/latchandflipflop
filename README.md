@@ -9,3 +9,7 @@ We try to implement a very basic form of a latch in this design.We just use the 
 
 
 ![](design/des1.PNG)
+
+The basic idea is,when clk is HIGH,output Q will be transparent to D and when clk is LOW,it should hold the latest value.But as we no NMOS pass weak-1,so output will be less than Vdd by one threshold voltage.So the output is not completely transparent to D.Moreover,when the clock goes LOW,the output node is floating,it discharges quickly and is unable to hold the value.We witness this behaviour according to the output obtained below.
+
+![](ouput/des1op.PNG)
