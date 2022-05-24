@@ -29,3 +29,7 @@ The design so proposed,is realised as shown below.
 
 ![](design/des2.PNG)
 
+This design will work as desired.The latch is transparent to input when clock is HIGH and opaque when clock is LOW.The output so obtained is shown below.
+
+![](ouput/des2op.PNG)
+
