@@ -68,3 +68,8 @@ Flipflop is a circuit,that passes the input only during rising or falling edge o
 The circuit we realized is a negative edge triggered flipflop.The latch we used is same as that discussed in Design 2.The output obtained for this circuit is shown below.
 
 ![](ouput/des4op.PNG)
+
+We can see that output waveform meets expectation.
+
+# Conclusion
+The purpose of this project was just to design and analyze various types of D-latches and make a D-flipflop using one of the designs used for latch.Although we discuessed three ways of desiging the latches,there varous other ways to design a latch.
