@@ -33,4 +33,7 @@ In this design,instead of providing input,D direcly to diffusion input of the tr
 
 ![](ouput/design2op.PNG)
 
-So we see that we are able to achieve the required functionality of latch.This design requires 8 transistors.
+So we see that we are able to achieve the required functionality of latch.This design requires 10 transistors.If we further wish o reduce the number of transistors,we may try out the design described below.
+
+# Design 3
+If we wish to reduce the number of transistors,we may remove the transmission gate on the feedback path and try observing the behaviour.The modified circuit is shown below.
