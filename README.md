@@ -19,3 +19,9 @@ Thus the above circuits have lots of demerits as:
 2. It cannot hold the data when latch is inacive.
 
 Considering such demerits,we look for a new design that can perform according to expectation.
+
+# Design 2
+In this design we try to address the issues of the previous design.
+- In the previous design,one of the issues was that latch is not completely transparent.It was passing weak-1 or weak-0 depending on the type of transistor we use.We resolve this issue by using a transmission gate that uses both NMOS and PMOS in parallel and so would be getting both strong-0 ans strong-1.
+- Another issue was,that the circuit was not able to hold the data when the latch is inactive.To solve this issue,we use two inverters back to back as they will be forming a feeback kind of thing and we would be able to hold the output.
+
