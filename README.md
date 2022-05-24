@@ -52,3 +52,7 @@ If we look into the output,we find the output is not as per expectation.This can
 The output so obtained is shown as:
 
 ![](ouput/des3op2.PNG)
+
+Thus we see that now the output is as per expectation.We acheived this by using 8 transistors.Though we reduced the number of transistors,it has some drawbacks as:
+- We have to increase the size of inverter by a significant amount to make it stronger.This may create a problem,by increasing the parasitic capacitances and thus leading to increased power dissipation.
+- Also if the inverter-inverter feedback goes to a point of metastability where we cannot define proper output as it lies in an intermediate value,then we have to wait for noise to come and move the feedback circuit out of metastable condition and take it to a valid output.
