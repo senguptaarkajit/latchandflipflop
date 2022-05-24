@@ -27,10 +27,10 @@ In this design we try to address the issues of the previous design.
 
 The design so proposed,is realised as shown below.
 
-![](design/des2.PNG)
+![](design/design2.PNG)
 
 This design will work as desired.The latch is transparent to input when clock is HIGH and opaque when clock is LOW.The output so obtained is shown below.
 
-![](ouput/des2op.PNG)
+![](ouput/design2op.PNG)
 
 So we see that we are able to achieve the required functionality of latch.This design requires 8 transistors.
