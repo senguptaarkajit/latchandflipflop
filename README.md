@@ -50,3 +50,5 @@ If we look into the output,we find the output is not as per expectation.This can
     - NMOS-> W1=700n and W3=180n
 
 The output so obtained is shown as:
+
+![](ouput/des3op2.PNG)
