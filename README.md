@@ -43,3 +43,10 @@ If we wish to reduce the number of transistors,we may remove the transmission ga
 The corresponding output we get is shown below:
 
 ![](ouput/des3op.PNG)
+
+If we look into the output,we find the output is not as per expectation.This can be explained by the scenario as below.
+- When D is HIGH,the node X is LOW.Now suppose at HIGH value of clock,D becomes LOW,so at node X there is a fight between the PMOS transistor of inverter I1 trying to pull X up and the NMOS of I3,trying to pull it down.If the inverter I1 is not stronger enough than the I3 inverter,then node X will not change according to input and we may get an invalid output.So for getiing proper output we make the inverter I1 stronger than I3.We resize them as: 
+    - PMOS-> W1=1400n and W3=180n
+    - NMOS-> W1=700n and W3=180n
+
+The output so obtained is shown as:
