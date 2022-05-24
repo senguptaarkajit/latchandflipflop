@@ -33,3 +33,4 @@ This design will work as desired.The latch is transparent to input when clock is
 
 ![](ouput/des2op.PNG)
 
+So we see that we are able to achieve the required functionality of latch.This design requires 8 transistors.
